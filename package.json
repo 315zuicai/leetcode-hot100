@@ -7,7 +7,7 @@
   "author": "dingkaiqiang <dingkaiqiang@baidu.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "ts-node ./src/twoSum.ts"
+    "dev": "ts-node"
   },
   "dependencies": {
     "ts-node": "^10.9.2",
