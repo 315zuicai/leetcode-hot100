@@ -1,3 +1,6 @@
+# 25-reverseKGroup.ts
+
+```typescript
 /**
  * Definition for singly-linked list.
  * class ListNode {
@@ -77,3 +80,4 @@ function reverseList(head: ListNode | null): [ListNode | null, ListNode | null] 
     }
     return [prev, head];
 }
+```

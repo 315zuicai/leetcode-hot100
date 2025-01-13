@@ -1,16 +1,17 @@
 {
-  "name": "leetcode-hot100",
-  "version": "1.0.0",
-  "description": "学无止境",
-  "main": "./main/",
-  "repository": "git@github.com:315zuicai/leetcode-hot100.git",
-  "author": "dingkaiqiang <dingkaiqiang@baidu.com>",
-  "license": "MIT",
-  "scripts": {
-    "dev": "ts-node"
-  },
-  "dependencies": {
-    "ts-node": "^10.9.2",
-    "typescript": "^5.7.2"
-  }
+    "name": "leetcode-hot100",
+    "version": "1.0.0",
+    "description": "学无止境",
+    "main": "./main/",
+    "repository": "git@github.com:315zuicai/leetcode-hot100.git",
+    "author": "dingkaiqiang <dingkaiqiang@baidu.com>",
+    "license": "MIT",
+    "scripts": {
+        "dev": "ts-node"
+    },
+    "dependencies": {
+        "@types/node": "^22.10.5",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.7.2"
+    }
 }

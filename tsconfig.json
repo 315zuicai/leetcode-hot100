@@ -1,13 +1,13 @@
 {
   "compilerOptions": {
-    "target": "ES2020",
-    "module": "ESNext",
+    "module": "commonjs",
     "lib": ["ES2020", "DOM"],
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "moduleResolution": "node",
+    "target": "esnext",
     "resolveJsonModule": true,
     "outDir": "./dist",
     "rootDir": "./src",
@@ -21,6 +21,9 @@
       "*": ["*"]
     }
   },
+  "ts-node": {
+    "files": true,
+},
   "include": ["src/**/*"],
   "exclude": ["node_modules", "dist"]
 } 
